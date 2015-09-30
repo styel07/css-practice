@@ -1,0 +1,19 @@
+{
+  "name": "css-practice",
+  "version": "1.0.0",
+  "description": "This Gist goes over setting up  a gulp workflow that will:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/styel07/css-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/styel07/css-practice/issues"
+  },
+  "homepage": "https://github.com/styel07/css-practice#readme"
+}
