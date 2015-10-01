@@ -2,7 +2,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -21,49 +20,51 @@ time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-  display: block;
-}
+  display: block; }
+
 body {
-  line-height: 1;
-}
+  line-height: 1; }
+
 ol, ul {
-  list-style: none;
-}
+  list-style: none; }
+
 blockquote, q {
-  quotes: none;
-}
+  quotes: none; }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
-  content: none;
-}
+  content: none; }
+
 table {
   border-collapse: collapse;
-  border-spacing: 0;
-}
+  border-spacing: 0; }
 
 /* After Reset */
-
 .clearfix:after {
-     visibility: hidden;
-     display: block;
-     font-size: 0;
-     content: " ";
-     clear: both;
-     height: 0;
-     }
-.clearfix { display: inline-block; }
-/* start commented backslash hack \*/
-* html .clearfix { height: 1%; }
-.clearfix { display: block; }
-/* close commented backslash hack */
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
 
+.clearfix {
+  display: inline-block; }
+
+/* start commented backslash hack \*/
+* html .clearfix {
+  height: 1%; }
+
+.clearfix {
+  display: block; }
+
+/* close commented backslash hack */
 /* BODY STYLES */
 /*
 body {
@@ -109,77 +110,57 @@ h1:after {
   box-sizing : border-box;
   padding : 50px;
 }*/
-
 /*MY STYLES*/
 body {
-  background-color : red;
-}
+  background-color: red; }
 
 div {
-  padding : 20px;
-}
+  padding: 20px; }
 
 .layout {
-  background-color : pink;
-}
+  background-color: pink; }
 
 .c {
-  background-color : yellow;
-  display : none;
-}
+  background-color: yellow;
+  display: none; }
 
 .two_columns {
-  background-color : yellowgreen;
-}
+  background-color: yellowgreen; }
 
 .two_columns .a {
-  background-color : green;
-}
+  background-color: green; }
+
 .two_columns .b {
-  background-color : blue;
-}
+  background-color: blue; }
+
 .d {
-  background-color : purple;
-}
+  background-color: purple; }
 
 /* MEDIUM */
-
-@media only screen and (min-width : 601px) and (max-width : 768px ) {
-
+@media only screen and (min-width: 601px) and (max-width: 768px) {
   .two_columns .a {
-    float : right;
-    width : 50%;
-    box-sizing : border-box;
-  }
-
+    float: right;
+    width: 50%;
+    box-sizing: border-box; }
   .two_columns .b {
-    float : left;
-    width : 50%;
-    box-sizing : border-box;
-  }
-
+    float: left;
+    width: 50%;
+    box-sizing: border-box; }
   .d {
-    display : none;
-  }
-}
+    display: none; } }
 
 /* LARGE */
-
-@media only screen and (min-width : 769px ) {
-
-.two_columns .a {
-    float : right;
-    width : 30%;
-    box-sizing : border-box;
-  }
-
+@media only screen and (min-width: 769px) {
+  .two_columns .a {
+    float: right;
+    width: 30%;
+    box-sizing: border-box; }
   .two_columns .b {
-    float : left;
-    width : 70%;
-    box-sizing : border-box;
-  }
-
+    float: left;
+    width: 70%;
+    box-sizing: border-box; }
   .d {
-    display : none;
-  }
-}
+    display: none; } }
+
+body {
+  background: #555; }
